@@ -36,14 +36,21 @@ color: rgb(5, 212, 223);
 #Admission{
 color: rgb(93, 88, 239);
 }
+.button{
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+width: 197px;
+height: 40px;
+}
 
 
 /* hero-kids */
 
 
 .first{
-    display: flex;
-    flex-direction: column;
+    /* gap: bottom 2px;; */
+    margin-bottom :auto
 }
 .hero-kids{
     display: flex;
@@ -54,11 +61,11 @@ color: rgb(93, 88, 239);
    
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 10px; */
-    /* margin-top: ; */
     margin: auto;
     margin-left: 200px;
     margin-right: 100px;
+    text-align: left;
+
 }
 .pera-1{
     color: rgb(254, 163, 1);
@@ -71,26 +78,23 @@ color: rgb(93, 88, 239);
 }
 
 
-
-
-
 /* second layout */
 #Standard{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: top 3.5em; ;
 }
 .full-second{
-    background-image:ass ;
+    background-image: url('../assets/bg.png');
+    /* background-repeat: no-repeat; */
 }
 .second{
     display: flex;
     text-align: center;
     justify-content: center;
-    
-
+    gap: 20px;
 }
-
 .p-1{
     color: rgb(128, 128, 128);
 font-family: Raleway;
@@ -123,4 +127,21 @@ text-align: center;
     
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.button-1{
+    color: rgb(100, 200, 255)
+}
+.button-2{
+    color: rgb(240, 170, 0)
+}
+.button-3{
+    color: rgb(135, 0, 255)
+}
+/* responsive media query */
+@media screen and (max-width: 576px){
+    .nav-p2, .school, .nav-p3 {
+      display: none;
+
+    }
+    
 }
