@@ -62,8 +62,8 @@ height: 40px;
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-left: 200px;
-    margin-right: 100px;
+    /* margin-left: 200px; */
+    /* margin-right: 100px; */
     text-align: left;
 
 }
@@ -145,3 +145,25 @@ text-align: center;
     }
     
 }
+@media screen and (max-width: 576px){
+    .hero-kids  {
+      flex-direction: column;
+      text-align: center;
+      /* margin-left: 0%; */
+      /* margin-right: 0%; */
+    }
+    .img-1{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .second {
+      flex-direction: column;
+    }
+    
+}
+
+
+
