@@ -22,6 +22,21 @@
         <div class="nav-p3">
             <button>Contact</button>
         </div>
+        <nav class="menuIcon" >
+            <div class="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+          <script>
+            // script.js
+          const menuIcon = document.querySelector('.menu-icon');
+          menuIcon.addEventListener('click', () => {
+            menuIcon.classList.toggle('active');
+          });
+        
+           </script> 
     </nav>
     <main>
         <div class="hero-kids">
@@ -99,7 +114,7 @@
                        </div>
                    </div>
                    <div class="part3-4-img">
-                       <div>
+                       <div class="imgg">
                            <img class="img-11" src="assets/story-2.png" alt="">
                            <div class="time-2">
                             <p>November 19, 2019</p>
@@ -107,7 +122,7 @@
                            <h2>Find out if a school fits the
                                family’s needs</h2>
                        </div>
-                       <div>
+                       <div class="imgg">
                            <img class="img-11" src="assets/story-3.png" alt="">
                            <div class="time-3">
                             <p>November 19, 2019</p>
@@ -115,7 +130,7 @@
                            <h2>Summer math & literacy
                                centres for kids</h2>
                        </div>
-                       <div>
+                       <div class="imgg">
                            <img class="img-11" src="assets/story-4.png" alt="">
                            <div class="time-2">
                             <p>November 19, 2019</p>
@@ -123,7 +138,7 @@
                            <h2>Classroom management
                                techniques for new tutors</h2>
                        </div>
-                       <div>
+                       <div class="imgg">
                            <img class="img-11" src="assets/story-5.png" alt="">
                            <div class="time-2">
                             <p>November 19, 2019</p>
@@ -131,13 +146,14 @@
                            <h2>Conversation rhymes
                                improve kids listening</h2>
                        </div>
-                       
-       
+                       <div>
+                        <button class="button-4">Vew all</button>
+                       </div>
                    </div>
-                   
                 </section>
+                
             </section>
-            <button class="button-4">Vew all</button>
+            
     </main>
     <footer>
         <section class="footer">
